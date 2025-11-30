@@ -19,7 +19,7 @@ namespace Deliveries.Unit
         [Theory]
         [InlineData(null, 10, 5)]
         [InlineData("", 10, 5)]
-        [InlineData("Test", 0, 5)]
+        [InlineData("Test", 0, 6)]
         [InlineData("Test", 10, 0)]
         public void Invalide_Payload(string client, double distance, double poids)
         {
